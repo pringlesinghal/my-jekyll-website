@@ -8,4 +8,4 @@ RUN apk update
 RUN apk add --no-cache build-base gcc make git
 
 # Update the Ruby bundler and install Jekyll
-RUN gen update bundler && gem install bundler jekyll
+RUN gem update bundler && gem install bundler jekyll
